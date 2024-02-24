@@ -3,9 +3,9 @@
 ## How to Use
 Use terminal from this project's root folder
 1. run `npm install`
-2. run `npm run test-traveloka` for run the test headlessly
+2. run `npm run test-traveloka` to run the test headlessly
 
-or if you prefer to run the test visually,
+or if you prefer to run the test visually, use these steps instead of no.2 above
 
 1. run `npx cypress open`, a cypress window will open
 2. choose "E2E Testing"
