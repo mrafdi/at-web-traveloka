@@ -1,0 +1,16 @@
+{
+  "name": "at-web-traveloka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-traveloka": "npx cypress run --spec \"cypress/e2e/traveloka_test.cy.js\" -b chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6"
+  }
+}
