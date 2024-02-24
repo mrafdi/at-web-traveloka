@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-traveloka": "npx cypress run --spec \"cypress/e2e/traveloka_test.cy.js\" -b chrome"
+    "test-traveloka": "npx cypress run --spec \"cypress/e2e/traveloka_test.cy.js\" -b chrome",
+    "test-1to50": "npx cypress run --spec \"cypress/e2e/1to50.cy.js\" -b chrome"
   },
   "keywords": [],
   "author": "",
